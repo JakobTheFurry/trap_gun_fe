@@ -143,7 +143,7 @@ RealGame = game;game = setmetatable({},{
 --leaked by Hmm465#7106
  
 local targetName = game.Players.LocalPlayer.Name
-local player = game.Players:FindFirstChild(targetName)
+local player = game.Players.LocalPlayer
 function putTexture(part, frontF, backF, topF, bottomF, leftF, rightF, className)
     local faces = {"Front", "Back", "Top", "Bottom", "Left", "Right"}
     for i,f in pairs(faces) do
